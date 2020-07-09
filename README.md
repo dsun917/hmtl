@@ -76,27 +76,27 @@ Assume we have some labeled data, of anomalous and non-anomalous examples \(y = 
 
 Choose anomaly detection with very small number of positive examples \(0-20 is common\) and large number of negative examples.
 
-Many different "types" of anomalies. Hard for algorithm to learn from positive examples what the anomalies look like; future anomalies may look nothing like any of the anomaly examples we've seen so far. Anomaly samples can not be treated as a class because it variate a lot. 
+Many different "types" of anomalies. Hard for algorithms to learn from positive examples what the anomalies look like; future anomalies may look nothing like any of the anomaly examples we've seen so far. Anomaly samples can not be treated as a class because it variate a lot. 
 
-Choose supervised learning with large number of positive and negative examples.
+Choose supervised learning with a large number of positive and negative examples.
 
- Enough positive examples for algorithm to get a sense of what positive examples are like, future positive examples likely to be similar to ones in training set.
+ Enough positive examples for algorithms to get a sense of what positive examples are like, future positive examples likely to be similar to ones in the training set.
 
 ##  Features
 
 ### Feature Transformation
 
-For non-gaussian model, play with different transformations log\(x\) for the data to make it gaussian.
+For non-Gaussian model, play with different transformations log\(x\) for the data to make it gaussian.
 
 ### Feature Selection
 
 Choose features that might take on unusually large or small values in the event of an anomaly.
 
-Such as, memory use of computer, number of disk accesses/sec, CPU load, network traffic, and combinations of them
+Such as memory use of computers, number of disk accesses/sec, CPU load, network traffic, and combinations of them
 
 ### Polluted
 
-A little bit of training data is anomaly.
+A little bit of training data is an anomaly.
 
 
 
