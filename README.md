@@ -4,6 +4,10 @@ description: 'https://github.com/donglee-afar/logdeep'
 
 # Learning
 
+To see whether the current available data can draw a concrete decision boundary between normal data and abnormal data.
+
+## 
+
 ## Density Estimation
 
 Model p\(x\) from data, identify unusual users by checking which have p\(x\) &lt; \epsilon
