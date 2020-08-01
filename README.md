@@ -4,7 +4,7 @@ description: 'https://github.com/donglee-afar/logdeep'
 
 # Learning
 
-To see whether the current available data can draw a concrete decision boundary between normal data and abnormal data.
+To see whether the current available data can draw a concrete decision boundary between normal data and abnormal data. Given a large and diverse set of training data, a good deep learning model will significantly outperform non-deep learning algorithms.
 
 ## 
 
